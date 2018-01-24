@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_layout_announcement"
+            android:icon="@drawable/appannounce"
+            android:textStyle="bold"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_layout_buses"
+            android:icon="@drawable/bus"
+            android:textStyle="bold"
+            android:title="Buses" />
+        <item
+            android:id="@+id/nav_layout_routes"
+            android:icon="@drawable/approutes"
+            android:textStyle="bold"
+            android:title="Routes" />
+        <item
+            android:id="@+id/nav_layout_favstopage"
+            android:icon="@drawable/appfavourite"
+            android:textStyle="bold"
+            android:title="Favourite Stopage" />
+    </group>
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/nav_layout_busidlist"
+                android:icon="@drawable/applis"
+                android:textStyle="bold"
+                android:title="Bus ID List" />
+            <item
+                android:id="@+id/nav_layout_feedback"
+                android:icon="@drawable/appsend"
+                android:textStyle="bold"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
